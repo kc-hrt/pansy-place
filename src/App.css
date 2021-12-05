@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+form {
+  display: "flex";
+  flex-direction: "column";
+  width: "450px";
+  margin: "50px";
+}
+.nav {
+  list-style: none;
+  display: flex;
+}
+
+.nav-item {
+  margin: auto;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 5rem auto;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto;
+  width: 50%;
+}
+
+.login-button {
+  margin-top: 25px !important;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 20vw;
+  margin: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  padding-inline-start: 20px;
+}
+
+.text-gray {
+  color: gray;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list-item {
+  margin: auto 20px;
+}
+
+.nav-list-item:hover {
+  cursor: pointer;
+}
+
+.car-container {
+  margin: 50px;
+}
+
+.car-paper {
+  padding: 50px;
+}
+
+.landing {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 60px;
+  background-image: url("pansey_bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Scroll Snap */
+  scroll-snap-align: center;
+}
+
+.masthead {
+  padding: 2rem;
+  background-color: #ffffff;
+  opacity: 0.6;
+}
