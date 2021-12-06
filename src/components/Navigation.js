@@ -15,7 +15,9 @@ export default class Navigation extends Component {
       <AppBar position="static" style={{ backgroundColor: "green" }}>
         <Toolbar>
           <Typography variant="h6" style={{ flexGrow: 1 }}>
-            Pansy Place
+            <Link style={{ textDecoration: "none" }} to="/">
+              Pansy Place
+            </Link>
           </Typography>
           <List className="nav">
             <ListItem className="nav-item">

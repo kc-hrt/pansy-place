@@ -31,9 +31,9 @@ class UpdateCrop extends Component {
     });
     console.log("🍄", this.state);
   }
-  DeleayComponent = () => {
-    const [show, setShow] = React.useState(false);
-  };
+  // DeleayComponent = () => {
+  //   const [show, setShow] = React.useState(false);
+  // };
 
   componentDidUpdate() {
     console.log("updated Crop ☀️", this.state.crop);

@@ -8,7 +8,6 @@ import {
   TableCell,
   TableHead,
   TableRow,
-  TextField,
 } from "@material-ui/core";
 // import DeleteIcon from "@material-ui/icons/Delete";
 import UpdateIcon from "@material-ui/icons/Update";
@@ -52,7 +51,7 @@ class Availability extends Component {
               <TableCell>Plant Name - Variant</TableCell>
               <TableCell>Color</TableCell>
               <TableCell># Available</TableCell>
-              {document.cookie == "loggedIn=true" ? (
+              {document.cookie === "loggedIn=true" ? (
                 <TableCell>Update</TableCell>
               ) : null}
             </TableRow>
