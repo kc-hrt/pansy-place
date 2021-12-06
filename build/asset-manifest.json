@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.c060f3db.chunk.css",
-    "main.js": "/static/js/main.d5ddd899.chunk.js",
-    "main.js.map": "/static/js/main.d5ddd899.chunk.js.map",
+    "main.js": "/static/js/main.d5129367.chunk.js",
+    "main.js.map": "/static/js/main.d5129367.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.b913a435.js",
     "runtime~main.js.map": "/static/js/runtime~main.b913a435.js.map",
     "static/js/2.50df07df.chunk.js": "/static/js/2.50df07df.chunk.js",
     "static/js/2.50df07df.chunk.js.map": "/static/js/2.50df07df.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.9a409bd985356b935e20d661dfd7619d.js": "/precache-manifest.9a409bd985356b935e20d661dfd7619d.js",
+    "precache-manifest.c5da66fdd89df40f28915b10c5197665.js": "/precache-manifest.c5da66fdd89df40f28915b10c5197665.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.c060f3db.chunk.css.map": "/static/css/main.c060f3db.chunk.css.map",
     "static/media/App.css": "/static/media/pansey_bg.412417f4.jpg"
