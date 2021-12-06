@@ -5,7 +5,7 @@ import { Container, TextField, Button } from "@material-ui/core";
 // import DeleteIcon from "@material-ui/icons/Delete";
 // import UpdateIcon from "@material-ui/icons/Update";
 
-let plantsURL = "http://localhost:42001/plants";
+let plantsURL = "http://api.fotohut.org:42001/plants";
 
 class AddPlant extends Component {
   constructor(props) {

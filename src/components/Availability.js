@@ -12,7 +12,7 @@ import {
 // import DeleteIcon from "@material-ui/icons/Delete";
 import UpdateIcon from "@material-ui/icons/Update";
 
-const availURL = "http://localhost:42001/availability";
+const availURL = "http://api.fotohut.org:42001/availability";
 
 class Availability extends Component {
   constructor(props) {
