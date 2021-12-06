@@ -5,7 +5,7 @@ import { Container, TextField, Button } from "@material-ui/core";
 // import DeleteIcon from "@material-ui/icons/Delete";
 // import UpdateIcon from "@material-ui/icons/Update";
 
-let URL = "http://api.fotohut.org:42001/plants/";
+let plantsURL = "http://localhost:42001/plants";
 
 class AddPlant extends Component {
   constructor(props) {
@@ -35,11 +35,11 @@ class AddPlant extends Component {
       plant_variant: this.state.addPlantVariant,
       plant_color: this.state.addPlantColor,
     };
-    console.log("🚀🦷", pushData, URL);
+    console.log("🚀🦷", pushData, plantsURL);
 
     axios({
       method: "POST",
-      url: URL,
+      url: plantsURL,
       timeout: 9000,
       data: pushData,
       headers: {

@@ -12,8 +12,8 @@ import {
 // import DeleteIcon from "@material-ui/icons/Delete";
 // import UpdateIcon from "@material-ui/icons/Update";
 
-const cropsURL = "http://api.fotohut.org:42001/crops/";
-const plantsURL = "http://api.fotohut.org:42001/plants/";
+const cropsURL = "http://localhost:42001/crops";
+const plantsURL = "http://localhost:42001/plants";
 
 class Add2Crop extends Component {
   constructor(props) {

@@ -5,7 +5,7 @@ import { Container, TextField, Button } from "@material-ui/core";
 // import DeleteIcon from "@material-ui/icons/Delete";
 // import UpdateIcon from "@material-ui/icons/Update";
 
-let URL = "http://api.fotohut.org:42001/crops/";
+let cropsURL = "http://localhost:42001/crops";
 
 class UpdateCrop extends Component {
   constructor(props) {
@@ -19,11 +19,11 @@ class UpdateCrop extends Component {
     };
   }
   async componentDidMount() {
-    console.log("🏹", URL);
-    URL = URL + this.props.match.params.id;
-    console.log("🪃", this.props.match.params, URL);
+    console.log("🏹", cropsURL);
+    cropsURL = cropsURL + this.props.match.params.id;
+    console.log("🪃", this.props.match.params, cropsURL);
     console.log("mounted 🌵", this.state.crop);
-    const res = await fetch(URL);
+    const res = await fetch(cropsURL);
     const data = await res.json();
     console.log("🌸🦋", data);
     this.setState({

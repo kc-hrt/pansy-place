@@ -1,5 +1,5 @@
 {
-  "name": "411_wk4_day1_react_router",
+  "name": "pansy-place",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -7,6 +7,7 @@
     "@material-ui/icons": "^4.2.1",
     "axios": "^0.24.0",
     "cookie": "^0.4.0",
+    "dotenv": "^10.0.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-router": "^5.0.1",

@@ -12,7 +12,7 @@ import {
 // import DeleteIcon from "@material-ui/icons/Delete";
 import UpdateIcon from "@material-ui/icons/Update";
 
-const URL = "http://api.fotohut.org:42001/availability";
+const availURL = "http://localhost:42001/availability";
 
 class Availability extends Component {
   constructor(props) {
@@ -26,7 +26,7 @@ class Availability extends Component {
   }
   async componentDidMount() {
     console.log("mounted 🌵", this.state.availability);
-    const res = await fetch(URL);
+    const res = await fetch(availURL);
     const data = await res.json();
     console.log("🌸🦋", data);
     this.setState({
